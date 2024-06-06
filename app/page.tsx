@@ -32,11 +32,7 @@ export default function Page() {
           <button className='open-menu-button' onClick={openMenu}></button>
         </div>
         <div className='home-content' >
-          <div className='home-texts'>
-            <h1>Faça da your home um paraíso</h1>
-            <p>Encontre uma variedade de propriedades que combinam com você.
-              Esqueça todas as dificuldades em encontrar uma residência.</p>
-          </div>
+          
           <div className='social-links'>
             <Image width={800}
               height={500} className="gallery-img" src='/assets/home-img1.svg' alt="" />
